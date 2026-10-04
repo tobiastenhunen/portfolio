@@ -15,7 +15,7 @@
     padding: max(20px, calc(40px + (1vw * -1)));
     text-align: center;
     font-weight: 600;
-    transition: 0.5s
+    transition: padding 0.5s
 }
 
 .view-work:hover {
