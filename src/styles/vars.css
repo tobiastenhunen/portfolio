@@ -9,6 +9,7 @@
     --design-primary: #e68e21;
     --bg: #f5f5f5;
     --fg: #1b1a18;
+    --header-fg: rgb(255, 255, 255);
     --h2-size: clamp(1.5rem, 3vw, 2rem);
     --header-height: 60px;
 }

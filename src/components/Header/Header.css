@@ -1,5 +1,4 @@
 header {
-    --header-fg: rgb(255, 255, 255);
     color: var(--header-fg);
     display: flex;
     align-items: center;
