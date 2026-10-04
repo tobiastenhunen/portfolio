@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import Banner from "../../components/Banner/Banner"
 import Skills from "../../components/Skills/Skills"
 import "./Home.css"
+import AboutMe from "../../components/AboutMe/AboutMe"
 
 export default function Home() {
     return (
@@ -15,6 +16,7 @@ export default function Home() {
             </div>
             <Skills>
             </Skills>
+            <AboutMe></AboutMe>
         </>
     )
 }

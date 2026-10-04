@@ -1,0 +1,24 @@
+.about-me {
+    font-weight: 400;
+    text-align: center;
+    margin: max(8vh, 10em) 0;
+    padding: max(10vh, 10em) 30%;
+    background-color: var(--web-primary)
+}
+
+#about-me-header {
+    margin: 20px;
+    color: var(--design-primary);
+}
+
+.about-me p {
+    color: var(--bg);
+    text-align: justify;
+    text-align-last: center;
+}
+
+@media (max-width: 500px) {
+    .about-me {
+        padding: max(10vh, 10em) 10%;
+    }
+}
