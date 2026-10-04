@@ -6,6 +6,11 @@
     background-color: var(--web-primary)
 }
 
+.about-me a {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
 #about-me-header {
     margin: 20px;
     color: var(--design-primary);
