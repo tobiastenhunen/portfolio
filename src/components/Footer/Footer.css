@@ -3,7 +3,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 4px;
+    gap: 10px;
     text-decoration: underline;
     padding: 20px 40px;
     background-color: var(--primary-color);
