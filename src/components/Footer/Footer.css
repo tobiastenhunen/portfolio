@@ -9,7 +9,7 @@ footer {
     background-color: var(--primary-color);
     color: var(--header-fg);
     min-height: var(--header-height);
-    font-weight: 500;
+    font-weight: 400;
 }
 
 footer hr {
