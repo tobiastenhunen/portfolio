@@ -2,8 +2,10 @@
     --icon-size: 60px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: clamp(3em, 20vh, 6em);
-    margin: 0 auto;
+    margin: 5em 0;
+    height: 100vh;
     text-align: center;
     width: 100%;
 }
