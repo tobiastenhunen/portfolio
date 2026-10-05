@@ -2,7 +2,7 @@
     --icon-size: 60px;
     display: flex;
     flex-direction: column;
-    gap: clamp(5em, 30vh, 8em);
+    gap: clamp(3em, 20vh, 6em);
     margin: 0 auto;
     text-align: center;
     width: 100%;
