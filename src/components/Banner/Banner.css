@@ -15,7 +15,7 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 4rem;
+    font-size: min(4rem, max(12vw, 40px));
     color: var(--primary-color);
     transition: transform 0.8s;
 }
