@@ -1,24 +1,100 @@
 .skills {
     --icon-size: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(5em, 30vh, 8em);
     margin: 0 auto;
     text-align: center;
     width: 100%;
 }
 
-.skills-icons {
+.skill-lists {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin: 20px auto;
+    gap: min(30%, 15em);
 }
 
-.skills-icons * {
-    width: var(--icon-size);
-    height: var(--icon-size);
+.skill-category-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    list-style-type: none;
+    width: 20vw;
 }
 
-@media (max-width: 500px) {
-    .skills-icons {
+.skill-heading {
+    margin-bottom: 10px;
+}
+
+.web-skills-heading {
+    color: var(--web-primary);
+}
+
+.design-skills-heading {
+    color: var(--design-primary);
+}
+
+.skill {
+    padding: 4px 10px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.skill-html {
+    background-color: #E34F26;
+    color: white;
+}
+
+.skill-css {
+    background-color: #1572B6;
+    color: white;
+}
+
+.skill-javascript {
+    background-color: #F7DF1E;
+    color: #111111;
+}
+
+.skill-typescript {
+    background-color: #2F74C0;
+    color: white;
+}
+
+.skill-react {
+    background-color: #20232A;
+    color: #61DAFB;
+}
+
+.skill-photoshop {
+    background-color: #001E36;
+    color: #31A8FF;
+}
+
+.skill-illustrator {
+    background-color: #FF9A00;
+    color: white;
+}
+
+.skill-indesign {
+    background-color: #47021E;
+    color: #F73163;
+}
+
+.skill-figma {
+    background-color: #1E1E1E;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .skill-lists {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .skill-category-list {
+        width: unset;
     }
 }
+

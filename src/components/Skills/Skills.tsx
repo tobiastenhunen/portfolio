@@ -1,17 +1,29 @@
 import "./Skills.css"
-import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa"
-import { SiJavascript, SiTypescript } from "react-icons/si"
 
 export default function Skills() {
     return (
         <section className="skills">
             <h2>Skills</h2>
-            <div className="skills-icons">
-                <FaHtml5 color="#E34F26"></FaHtml5>
-                <FaCss3Alt color="#1572B6"></FaCss3Alt>
-                <FaReact color="#61DAFB"></FaReact>
-                <SiJavascript color="#F7DF1E"></SiJavascript>
-                <SiTypescript color="#3178C6"></SiTypescript>
+            <div className="skill-lists">
+                <div className="web-skills">
+                    <h3 className="skill-heading web-skills-heading">Web</h3>
+                    <ul className="skill-category-list">
+                        <li className="skill-html skill">Html</li>
+                        <li className="skill-css skill">Css</li>
+                        <li className="skill-javascript skill">Javascript</li>
+                        <li className="skill-typescript skill">Typescript</li>
+                        <li className="skill-react skill">React</li>
+                    </ul>
+                </div>
+                <div className="design-skills">
+                    <h3 className="skill-heading design-skills-heading">Design</h3>
+                    <ul className="skill-category-list">
+                        <li className="skill-photoshop skill">Adobe Photoshop</li>
+                        <li className="skill-illustrator skill">Adobe Illustrator</li>
+                        <li className="skill-indesign skill">Adobe InDesign</li>
+                        <li className="skill-figma skill">Figma</li>
+                    </ul>
+                </div>
             </div>
         </section>
     )
