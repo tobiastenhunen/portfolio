@@ -16,5 +16,6 @@
 @media (prefers-reduced-motion: reduce) {
     .appear-animation {
         opacity: 1;
+        translate: 0;
     }
 }
