@@ -8,7 +8,7 @@
     translate: 100%;
 }
 
-.appear-animation.active {
+.appear-animation.appear {
     translate: 0;
     opacity: 1;
 }

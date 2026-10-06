@@ -2,7 +2,7 @@ import "./appear.css"
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
-        entry.target.classList.toggle("active", entry.isIntersecting)
+        entry.target.classList.toggle("appear", entry.isIntersecting)
         }
     )
 }, {threshold: 0.3})
