@@ -29,6 +29,7 @@
 body {
     background-color: var(--bg);
     color: var(--fg);
+    overflow-x: clip;
 }
 
 body, button {
