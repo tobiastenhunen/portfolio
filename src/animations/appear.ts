@@ -5,7 +5,7 @@ const observer = new IntersectionObserver((entries) => {
         entry.target.classList.toggle("appear", entry.isIntersecting)
         }
     )
-}, {threshold: 0.3, rootMargin: "0px 100%"})
+}, {threshold: 0.5, rootMargin: "0px 100%"})
 
 function observeAppearElements() {
     const appearElements = document.querySelectorAll(".appear-animation")
