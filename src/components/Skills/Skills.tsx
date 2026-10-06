@@ -18,9 +18,9 @@ export default function Skills() {
                 <div className="design-skills">
                     <h3 className="skill-heading design-skills-heading">Design</h3>
                     <ul className="skill-category-list">
-                        <li className="skill-photoshop skill">Adobe Photoshop</li>
-                        <li className="skill-illustrator skill">Adobe Illustrator</li>
-                        <li className="skill-indesign skill">Adobe InDesign</li>
+                        <li className="skill-photoshop skill">Photoshop</li>
+                        <li className="skill-illustrator skill">Illustrator</li>
+                        <li className="skill-indesign skill">InDesign</li>
                         <li className="skill-figma skill">Figma</li>
                     </ul>
                 </div>
