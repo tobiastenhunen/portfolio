@@ -18,7 +18,7 @@ export default function Skills() {
                 </div>
                 <div className="design-skills">
                     <h3 className="skill-heading design-skills-heading">Creatief</h3>
-                    <ul className="skill-category-list">
+                    <ul className="skill-category-list design-skills-list">
                         <SkillCell skillName="Photoshop" color="#31A8FF" backgroundColor="#001E36" appearRight></SkillCell>
                         <SkillCell skillName="Illustrator" color="white" backgroundColor="#FF9A00" appearRight></SkillCell>
                         <SkillCell skillName="InDesign" color="#F73163" backgroundColor="#47021E" appearRight></SkillCell>
