@@ -23,6 +23,10 @@
     list-style-type: none;
 }
 
+.skill-category-list.design-skills-list *:nth-child(odd):last-child {
+    grid-column: 2;
+}
+
 .skill-heading {
     margin-bottom: 10px;
 }
