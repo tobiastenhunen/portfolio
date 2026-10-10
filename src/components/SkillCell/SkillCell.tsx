@@ -9,7 +9,9 @@ type Props = {
 
 export default function SkillCell({skillName, color, backgroundColor, appearRight = false}: Props) {
     const classList = "skill-cell appear-animation " + (appearRight ? "appear-right" : "")
-    return <div className={classList} style={{color, backgroundColor}}>
-        <p>{skillName}</p>
-    </div>
+    return <li>
+        <div className={classList} style={{color, backgroundColor}}>
+            <p>{skillName}</p>
+        </div>
+    </li>
 }
