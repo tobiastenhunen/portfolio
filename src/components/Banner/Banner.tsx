@@ -2,7 +2,7 @@ import { useEffect, useState, useRef } from "react"
 import "./Banner.css"
 
 type Props = {
-    text: string,
+    text: String,
     verticalMargin?: String,
     children?: React.ReactNode,
 }
