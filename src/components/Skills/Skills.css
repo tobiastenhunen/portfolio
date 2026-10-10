@@ -91,6 +91,11 @@
     color: white;
 }
 
+.skill-blender {
+    background-color: #E37200;
+    color: #fefeff;
+}
+
 @media (max-width: 600px) {
     .skill-lists {
         flex-direction: column;

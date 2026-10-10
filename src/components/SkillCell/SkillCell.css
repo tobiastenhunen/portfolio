@@ -1,0 +1,11 @@
+.skill-cell {
+    --cell-size: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    font-weight: 600;
+    width: var(--cell-size);
+    height: var(--cell-size);
+}
