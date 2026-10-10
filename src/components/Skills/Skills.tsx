@@ -30,11 +30,3 @@ export default function Skills() {
         </section>
     )
 }
-
-function addAppearAnimations() {
-    const skills = document.querySelectorAll(".skill")
-    skills.forEach((skill) => {
-        if (skill.classList.contains("design-skill")) {skill.classList.add("appear-right")}
-        skill.classList.add("appear-animation")
-    })
-}
