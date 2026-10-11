@@ -14,6 +14,9 @@ export default function Skills() {
                         <SkillCell skillName="Javascript" color="#111111" backgroundColor="#F7DF1E"></SkillCell>
                         <SkillCell skillName="Typescript" color="white" backgroundColor="#2F74C0"></SkillCell>
                         <SkillCell skillName="React" color="#61DAFB" backgroundColor="#20232A"></SkillCell>
+                        <SkillCell skillName="Python" color="#3775A9" backgroundColor="#FFD03F"></SkillCell>
+                        <SkillCell skillName="SQL" color="white" backgroundColor="#0072C6"></SkillCell>
+                        <SkillCell skillName="Godot" color="#222224" backgroundColor="#478CBF"></SkillCell>
                     </ul>
                 </div>
                 <div className="design-skills">
@@ -24,6 +27,7 @@ export default function Skills() {
                         <SkillCell skillName="InDesign" color="#F73163" backgroundColor="#47021E" appearRight></SkillCell>
                         <SkillCell skillName="Figma" color="white" backgroundColor="#1E1E1E" appearRight></SkillCell>
                         <SkillCell skillName="Blender" color="white" backgroundColor="#E37200" appearRight></SkillCell>
+                        <SkillCell skillName="Reaper" color="white" backgroundColor="#B86651" appearRight></SkillCell>
                     </ul>
                 </div>
             </div>
