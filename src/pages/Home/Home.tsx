@@ -45,7 +45,7 @@ function _getGreetingMessage(): String {
 
     if (isNaN(currentHour)) {
         console.warn("Couldn't retrieve current hour: ", currentHour)
-        return ""
+        return "Hallo"
     }
 
     if (currentHour < 6) return "Hallo"
